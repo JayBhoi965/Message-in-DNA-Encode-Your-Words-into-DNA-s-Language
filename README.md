@@ -74,4 +74,7 @@ message-in-dna/
 ##Screenshots : 
 
 ![image alt](https://github.com/JayBhoi965/Message-in-DNA-Encode-Your-Words-into-DNA-s-Language/blob/main/SS2.png?raw=true)
+<br>
+<br>
+<br>
 ![image alt](https://github.com/JayBhoi965/Message-in-DNA-Encode-Your-Words-into-DNA-s-Language/blob/main/SS.png?raw=true)
