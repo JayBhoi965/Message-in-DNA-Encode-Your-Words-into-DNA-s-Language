@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message in DNA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <header>
+        <h1>MESSAGE IN DNA</h1>
+        <p class="subtitle">Encode Your Words Into Genetic Code</p>
+    </header>
+ 
+    <div class="container">
+        <!-- INPUT SECTION -->
+        <div class="input-section">
+            <label for="messageInput">Enter Your Message:</label>
+            <textarea 
+                id="messageInput" 
+                placeholder="Type anything... it will be converted into DNA code (A, T, C, G)"
+            ></textarea>
+            
+            <div class="button-group">
+                <button class="btn-encode" onclick="encodeMessage()">
+                    <span style="position: relative; z-index: 1;">🧬 Encode to DNA</span>
+                </button>
+                <button class="btn-decode" onclick="decodeMessage()">
+                    <span style="position: relative; z-index: 1;">🔓 Decode DNA</span>
+                </button>
+                <button class="btn-download" onclick="downloadDNA()">
+                    <span style="position: relative; z-index: 1;">💾 Download DNA</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- OUTPUT SECTION -->
+        <div class="output-section">
+            <div class="output-label">DNA Sequence:</div>
+            <div class="dna-sequence" id="dnaOutput">Your DNA code will appear here...</div>
+            <div class="decoded-message" id="decodedOutput"></div>
+        </div>
+
+        <!-- CANVAS SECTION -->
+        <div class="canvas-section">
+            <div class="canvas-label">DNA Visualization</div>
+            <canvas id="dnaCanvas"></canvas>
+            
+            <!-- LEGEND -->
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color legend-a"></div>
+                    <span>A (Adenine)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-t"></div>
+                    <span>T (Thymine)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-c"></div>
+                    <span>C (Cytosine)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-g"></div>
+                    <span>G (Guanine)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
