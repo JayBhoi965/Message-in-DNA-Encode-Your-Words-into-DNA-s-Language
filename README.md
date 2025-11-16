@@ -17,13 +17,6 @@ This project is a futuristic fusion of **science + art + coding**.
 
 ---
 
-## Live Demo  
-_Add your live link here once deployed, e.g.:_
-
-> https://yourusername.github.io/message-in-dna/
-
----
-
 ## Concept  
 
 DNA can theoretically store **215 petabytes** of data per gram.  
