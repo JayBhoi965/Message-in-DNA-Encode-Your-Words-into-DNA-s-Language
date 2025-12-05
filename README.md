@@ -71,7 +71,7 @@ message-in-dna/
 ├── style.css # Neon UI + layout
 └── script.js # Encoding logic & helix animation
 ```
-##Screenshots : 
+## Screenshots : 
 
 ![image alt](https://github.com/JayBhoi965/Message-in-DNA-Encode-Your-Words-into-DNA-s-Language/blob/main/SS2.png?raw=true)
 <br>
